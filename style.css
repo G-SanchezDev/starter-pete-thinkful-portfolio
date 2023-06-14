@@ -18,7 +18,9 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
@@ -26,6 +28,7 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
+
 }
 
 article {
@@ -37,9 +40,27 @@ article div {
   width: 100%;
 }
 
+.about-section{
+  display: flex;
+  align-items: center;
+}
+
+.pete-thinkful{
+  text-align: left;
+}
+
+.portfolio-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.portfolio-flex p {
+  font-size: 14px;
 }
 
 /* Links */
